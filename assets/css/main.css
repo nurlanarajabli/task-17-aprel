@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d5a80;
+}
+header .containerHeader {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .containerHeader .left p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  text-align: left;
+}
+header .containerHeader nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .containerHeader nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .containerHeader nav ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+header .containerHeader nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+header .containerHeader .button {
+  width: Fixed 187px;
+  height: Fixed 48px;
+  top: 34px;
+  left: 1098px;
+  padding: 8px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid transparent;
+}
+header .containerHeader .button button {
+  height: 35px;
+  width: 90px;
+  background-color: #ee6c4d;
+}
+
+#sectionOne {
+  background-color: #3d5a80;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#sectionOne .writingArea {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  line-height: 35px;
+  padding: 30px;
+  margin: 30px;
+  height: 60%;
+  width: 40%;
+}
+#sectionOne .writingArea h2 {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: left;
+}
+#sectionOne .writingArea p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+}
+#sectionOne .writingArea button {
+  width: Fixed 187px px;
+  height: Fixed 48px px;
+  top: 438px;
+  left: 160px;
+  padding: 12px 18px 12px 18px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ee6c4d;
+  margin-top: 15px;
+}
+#sectionOne .image {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+#sectionOne .image .photo1 {
+  z-index: 1;
+}
+#sectionOne .image .photo2 {
+  position: absolute;
+  margin-right: 42px;
+}
+
+#sectionTwo {
+  background-color: #293241;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#sectionTwo .containerTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sectionTwo .containerTop .imgTwo {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+#sectionTwo .containerTop .write {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 15px;
+}
+#sectionTwo .containerTop .write h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sectionTwo .containerTop .write .line {
+  background-color: #ee6c4d;
+  height: 3px;
+  width: 50%;
+}
+#sectionTwo .containerTop .write p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#sectionFive {
+  background-color: #293241;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+#sectionFive .bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#sectionFive .bottom h2 {
+  color: white;
+  width: 382px;
+  height: 52px;
+  top: 1178px;
+  left: 492px;
+}
+#sectionFive .bottom .lineTwo {
+  background-color: #ee6c4d;
+  height: 3px;
+  width: 8%;
+}
+
+#sectionSix {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293241;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#sectionSix .topWrite {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sectionSix .photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
